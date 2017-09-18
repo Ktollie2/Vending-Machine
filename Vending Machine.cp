@@ -74,8 +74,15 @@ void Vendingmachine(Soda *x){
     int choice;
     float amount;
     double change;
+     
+    do{
     cout << "Please select the drink of your choice: " << endl;
     cin >> choice;
+    if(choice < 1 || choice > 5){
+        cout << "Please select a number between 1 and 5" << endl;
+    }
+        
+    } while(choice < 1 || choice > 5);
     
     
     switch (choice) {
