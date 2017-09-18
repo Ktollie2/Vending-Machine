@@ -166,7 +166,7 @@ void Vendingmachine(Soda *x){
         
     }
     
-    else if(amount > x[choice - 1].cost){
+    else if(amount < x[choice - 1].cost){
         cout << "You need to enter " << x[choice - 1].cost - amount << " more cents" << endl;
     }
     
