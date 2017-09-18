@@ -28,7 +28,7 @@ int main() {
     
     // Initializes the array of the information for each drink including name, price, and amount of sodas
     
-    Soda drinks[5] = {"Cola",.75, 20, "Root Beer", .75, 20, "Lemon-Lime", .75, 20, "Grape Soda", .80, 20, "Cream Soda", .80, 20};
+    Soda drinks[5] = {"Cola      ",.75, 20, "Root Beer ", .75, 20, "Lemon-Lime", .75, 20, "Grape Soda", .80, 20, "Cream Soda", .80, 20};
     
     // Assigning the array to pointer x
     
